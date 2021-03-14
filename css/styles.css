@@ -1,0 +1,151 @@
+
+body{
+    margin: 0;
+    text-align: center;
+    
+    /*Para escoger el tipo de letra, esta ira escogiendo de los más especifico a lo más general
+    primero comprobará si existe la fuente Verdana, en caso de que no, pasará a Geneva y asi
+    sucesivament
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+
+    font-family: 'Merriweather', serif;
+    
+}
+
+span{
+    font-weight: bold;
+}
+div{
+    /*Aqui podemos ver que solo estamos cambiando el color del contenedor y no de todo el cuerpo
+    background-color: chartreuse;*/
+}
+
+h1{
+    width: 30%;
+    /*Al momento de poner un cierto tamaño debemos de poner para alinear, si no, se pondra el determinado*/
+    /*La función auto alinea el texto a la mitad de la pantalla 
+    */
+    margin: 50px auto 0 auto;
+
+    /*Lo sacamos de la pagina de google*/
+    font-family: 'Sacramento', cursive;
+    /*Se debe de hacer una regla de 3 donde 16px es el 100% por lo tanto si queremos que sean 70px seria el 437.5%
+    Esto se hace para que el texto se vuelva dinamico*/
+
+    /*Tambien se puede hacer con em, sabemos que 16px = 100% = 1em */
+    font-size: 5.625rem;
+
+    color: #1687a7;
+
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    /* Queremos que sea de 40px utilizando rem 16px = 1rem*/
+    font-size: 2.5rem;
+    color: #1687a7;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #1687a7
+}
+
+hr{
+    background-color: #f6f5f5;
+    /*Se especifica el color que tendran los puntos*/
+    border-top-color: #1687a7;
+    /*Se especifica los cuatro lados del rectangulo, el primero es para la parte de arriba*/
+    border-style: dotted none none none;
+    border-top-width: 5px;
+    /*Para que no se muestre como si fuera un rectangulo*/
+    height: 0;
+    /*Siempre ocupara solo el 5% de la pantalla*/
+    width: 5%;
+}
+
+.top-container{
+    background-color:#d3e0ea;
+    padding-left: 20px;
+    padding-top: 100px;
+
+    /*Quitamos los margenes para que se muestren por completo los componentes*/
+    margin: 0;
+}
+
+.middle-container{
+
+}
+
+.bottom-container{
+    background-color: #276678;
+    margin: 0;
+    height: 150px;
+    padding-top: 50px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 28%;
+    top: 5%;
+}
+
+.bottom-cloud{
+    position: absolute;
+}
+
+.under{
+    text-decoration: underline;
+}
+
+
+.profile-picture{
+    height: 15%;
+    width: 15%;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    /*Espacio que hay entre cada linea*/
+    line-height: 2;
+}
+
+.btn {
+    background: #78C4D4;
+    background-image: -webkit-linear-gradient(top, #78C4D4, #1E62D0);
+    background-image: -moz-linear-gradient(top, #78C4D4, #1E62D0);
+    background-image: -ms-linear-gradient(top, #78C4D4, #1E62D0);
+    background-image: -o-linear-gradient(top, #78C4D4, #1E62D0);
+    background-image: -webkit-gradient(to bottom, #78C4D4, #1E62D0);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #D3E0EA;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px 15px;
+    text-shadow: 1px 1px 20px #000000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 50px 0
+ }
+ 
+ .btn:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }

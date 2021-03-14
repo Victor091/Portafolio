@@ -1,0 +1,27 @@
+.description{
+    width: 30%;
+    margin: 0 auto 0 auto;
+
+}
+
+.look-hr{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.phrase{
+    font-weight: bold
+}
+
+.footer-link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    color: #d3e0ea;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.derechos{
+    color: #f6f5f5;
+}

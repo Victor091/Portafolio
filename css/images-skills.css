@@ -1,0 +1,18 @@
+.python-image{
+    height: 18%;
+    width: 18%;
+    /*Sirve para que cuando acabe lo que esta abajo se ponga de lado derecho, es como si pusieras
+    estrecho en una imagen*/
+    float: left;
+    margin-right: 20px;
+}
+
+.java-image{
+    height: 25%;
+    width: 25%;
+    float: right;
+    
+}
+
+.align{
+}
